@@ -5,7 +5,7 @@
 }
 
 main {
-  background: linear-gradient(180deg, #04091c 0%, #08143c 70%);
+  background: var(--main-background-gradient);
   min-height: 100vh;
   min-width: 100vw;
   display: flex;

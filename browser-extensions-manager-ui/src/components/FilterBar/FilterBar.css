@@ -23,7 +23,7 @@
 }
 
 .filter-btn {
-  color: white;
+  color: var(--text);
   font-family: main-font;
   font-size: 1rem;
   margin-left: 10px;
@@ -32,20 +32,20 @@
   padding: 10px 20px 10px 20px;
   border-radius: 20px;
   align-self: flex-end;
-  background-color: #2f354b;
+  background-color: var(--filter-button-bg);
   transition: 0.3s ease-in-out;
   font-size: 1rem;
 }
 
 .filter-btn.active {
   background-color: #f05d54 !important;
-  color: black;
+  color: var(--text);
 }
 
 .filter-btn:hover {
-  background-color: #39405b;
+  background-color: var(--filter-button-bg-hover);
 }
 
 .title {
-  color: white;
+  color: var(--text);
 }/*# sourceMappingURL=FilterBar.css.map */

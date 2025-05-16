@@ -1,8 +1,11 @@
-import { useState } from 'react';
 import './FilterBar.css';
 
-export default function FilterBar() {
-  const [activeFilter, setActiveFilter] = useState('All');
+type FilterBarProps = {
+  activeFilter: string;
+  setActiveFilter: (filter: string) => void;
+};
+
+export default function FilterBar({ activeFilter, setActiveFilter }: FilterBarProps) {
 
   const handleClick = (filter: string) => {
     setActiveFilter(filter);

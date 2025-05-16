@@ -3,4 +3,31 @@
     src:url('./fonts/static/NotoSans-Regular.ttf');
 }
 
-$main-bkg-color: linear-gradient(#1c2535, #1f2535, 20%);
+
+:root {
+  --main-background-gradient: linear-gradient(180deg, #04091c 0%, #08143c 70%);
+  --text: #ffffff;
+  --primary: #0d6efd;
+  --card-bg: linear-gradient(#1c2535, #1f2535 20%);
+  --card-button-bg: #2f354b;
+  --card-button-bg-hover: #3b4159;
+  --filter-button-bg:#2f354b;
+  --filter-button-bg-hover:#3b4159;
+  --extension-bg:#1f2535;
+  --remove-btn-border: #ffffff;
+  
+}
+
+[data-theme='light'] {
+  --main-background-gradient: #ebf4fd;
+  --text: #000000;
+  --card-bg: #fcfdff;
+  --card-button-bg: #dee2e6;
+  --filter-button-bg:#fafbfc;
+  --extension-bg:#fcfdff;
+  --remove-btn-border: #000000;
+  --filter-button-bg-hover:#f7f9fb;
+
+}
+
+
