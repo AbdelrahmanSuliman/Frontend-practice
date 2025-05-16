@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main {
+    background: linear-gradient(180deg,#04091c 0%, #08143c 70%);
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.extensions-display{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    gap: 20px;
+}

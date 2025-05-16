@@ -1,0 +1,51 @@
+@font-face {
+  font-family: main-font;
+  src: url("../../assets/fonts/static/NotoSans-Regular.ttf");
+}
+@font-face {
+  font-family: main-font-bold;
+  src: url("../../assets/fonts/static/NotoSans-Bold.ttf");
+}
+.extensions-header {
+  display: flex;
+  font-family: main-font-bold;
+  font-size: 1.2rem;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.filter-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.filter-btn {
+  color: white;
+  font-family: main-font;
+  font-size: 1rem;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  align-self: flex-end;
+  background-color: #2f354b;
+  transition: 0.3s ease-in-out;
+  font-size: 1rem;
+}
+
+.filter-btn.active {
+  background-color: #f05d54 !important;
+  color: black;
+}
+
+.filter-btn:hover {
+  background-color: #39405b;
+}
+
+.title {
+  color: white;
+}/*# sourceMappingURL=FilterBar.css.map */

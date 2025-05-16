@@ -1,0 +1,124 @@
+@font-face {
+  font-family: main-font-bold;
+  src: url("src\assets\fontsstaticNotoSans-Bold.ttf");
+}
+@font-face {
+  font-family: main-font;
+  src: url("src\assets\fontsstaticNotoSans-Regular.ttf");
+}
+.extension-card {
+  width: 30%;
+  height: 220px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #1f2535;
+}
+
+.extension-card-top {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.extension-card-top h2 {
+  color: white;
+  font-family: main-font-bold;
+}
+
+.extension-card-top p {
+  color: #777b84;
+  font-family: main-font;
+}
+
+.extension-card-top img {
+  margin: 0px 10px 0px 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.title-description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.extension-card-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.extension-card-bottom button {
+  font-family: main-font;
+  padding: 5px 15px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.extension-card-bottom button:hover {
+  background-color: hsl(3, 86%, 64%) !important;
+  color: #1f2533;
+  border: 1px solid #000000;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #4d5562;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #fc5a5a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(21px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}/*# sourceMappingURL=Extension.css.map */
